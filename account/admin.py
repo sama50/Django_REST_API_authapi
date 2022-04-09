@@ -1,5 +1,5 @@
 from django.contrib import admin
-from api.models import User
+from account.models import User
 from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
 
 class UserModelAdmin(BaseUserAdmin):
